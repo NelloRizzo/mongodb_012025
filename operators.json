@@ -1,116 +1,206 @@
 [
-    // {
-    //   $addFields:
-    //     /**
-    //      * newField: The new field name.
-    //      * expression: The new field expression.
-    //      */
-    //     {
-    //       FullName: {
-    //         $concat: ["$FirstName", " ", "$LastName"]
-    //       },
-    //       Name: {
-    //         $concat: [
-    //           {
-    //             $substr: ["$FirstName", 0, 1]
-    //           },
-    //           ". ",
-    //           {
-    //             $toUpper: "$LastName"
-    //           }
-    //         ]
-    //       }
-    //     }
-    // }
-    // {
-    //   $addFields:
-    //     /**
-    //      * newField: The new field name.
-    //      * expression: The new field expression.
-    //      */
-    //     {
-    //       FullNameArray: {
-    //         $split: ["$FullName", " "]
-    //       },
-    //       AddSample: {
-    //         $add: ["$Amount", "$Amount"]
-    //       },
-    //       SubSample: {
-    //         $subtract: [
-    //           "$Amount",
-    //           {
-    //             $trunc: "$Amount"
-    //           }
-    //         ]
-    //       },
-    //       MulSample: {
-    //         $multiply: ["$Amount", "$Children"]
-    //       },
-    //       DivSample: {
-    //         $cond: {
-    //           if: {
-    //             $ne: ["$Children", 0]
-    //           },
-    //           then: {
-    //             $divide: ["$Amount", "$Children"]
-    //           },
-    //           else: "N/A"
-    //         }
-    //       }
-    //     }
-    // }
-    {
-      $addFields:
-        /**
-         * newField: The new field name.
-         * expression: The new field expression.
-         */
-        {
-          DateAsString1: {
-            $dateToString: {
-              format: "%d/%m/%Y",
-              date: "$Birthday"
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        FullName: {
+          $concat: [
+            "$FirstName",
+            " ",
+            "$LastName"
+          ]
+        },
+        Name: {
+          $concat: [
+            {
+              $substr: ["$FirstName", 0, 1]
+            },
+            ". ",
+            {
+              $toUpper: "$LastName"
             }
-          },
-          DateAsString2: {
-            $dateToString: {
-              format: "%d/%B/%Y",
-              date: "$Birthday"
+          ]
+        }
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        FullNameArray: {
+          $split: ["$FullName", " "]
+        },
+        AddSample: {
+          $add: ["$Amount", "$Amount"]
+        },
+        SubSample: {
+          $subtract: [
+            "$Amount",
+            {
+              $trunc: "$Amount"
             }
-          },
-          DayOfYear: {
-            $dateToString: {
-              format: "%j",
-              date: "$Birthday"
-            }
-          },
-          DayOfWeek: {
-            $dateToString: {
-              format: "%w",
-              date: "$Birthday"
-            }
-          },
-          YearOfBirth: {
-            $year: "$Birthday"
-          },
-          MonthOfBirth: {
-            $month: "$Birthday"
-          },
-          DayOfBirth: {
-            $dayOfMonth: "$Birthday"
-          },
-          Hours: {
-            $hour: "$CreatedAt"
-          },
-          Minutes: {
-            $minute: "$CreatedAt"
-          },
-          Seconds: {
-            $second: "$CreatedAt"
-          },
-          Milliseconds: {
-            $millisecond: "$CreatedAt"
+          ]
+        },
+        MulSample: {
+          $multiply: ["$Amount", "$Children"]
+        },
+        DivSample: {
+          $cond: {
+            if: {
+              $ne: ["$Children", 0]
+            },
+            then: {
+              $divide: ["$Amount", "$Children"]
+            },
+            else: "N/A"
           }
         }
-    }
-  ]
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        DateAsString1: {
+          $dateToString: {
+            format: "%d/%m/%Y",
+            date: "$Birthday"
+          }
+        },
+        DateAsString2: {
+          $dateToString: {
+            format: "%d/%B/%Y",
+            date: "$Birthday"
+          }
+        },
+        DayOfYear: {
+          $dateToString: {
+            format: "%j",
+            date: "$Birthday"
+          }
+        },
+        DayOfWeek: {
+          $dateToString: {
+            format: "%w",
+            date: "$Birthday"
+          }
+        },
+        YearOfBirth: {
+          $year: "$Birthday"
+        },
+        MonthOfBirth: {
+          $month: "$Birthday"
+        },
+        DayOfBirth: {
+          $dayOfMonth: "$Birthday"
+        },
+        Hours: {
+          $hour: "$CreatedAt"
+        },
+        Minutes: {
+          $minute: "$CreatedAt"
+        },
+        Seconds: {
+          $second: "$CreatedAt"
+        },
+        Milliseconds: {
+          $millisecond: "$CreatedAt"
+        }
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        CreatedAtTomorrow: {
+          $add: [
+            "$CreatedAt",
+            1 * 24 * 60 * 60000
+          ]
+        },
+        CreatedAtYesterday: {
+          $subtract: [
+            "$CreatedAt",
+            {
+              $multiply: [
+                "$Children",
+                24,
+                60,
+                60000
+              ]
+            }
+          ]
+        },
+        FromCreation: {
+          $dateDiff: {
+            startDate: "$CreatedAt",
+            endDate: "$LastUpdate",
+            unit: "minute"
+          }
+        },
+        AfterCreation: {
+          $dateAdd: {
+            startDate: "$CreatedAt",
+            unit: "year",
+            amount: 10
+          }
+        },
+        FirstDayOfCurrentMonth: {
+          $dateFromParts: {
+            year: {
+              $year: "$CreatedAt"
+            },
+            month: {
+              $month: "$CreatedAt"
+            },
+            day: 1
+          }
+        },
+        FirstDayOfNextMonth: {
+          $dateAdd: {
+            startDate: {
+              $dateFromParts: {
+                year: {
+                  $year: "$CreatedAt"
+                },
+                month: {
+                  $month: "$CreatedAt"
+                },
+                day: 1
+              }
+            },
+            unit: "month",
+            amount: 1
+          }
+        }
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        CurrentMonthDays: {
+          $dateDiff: {
+            startDate: "$FirstDayOfCurrentMonth",
+            endDate: "$FirstDayOfNextMonth",
+            unit: "day"
+          }
+        }
+      }
+  }
+]
