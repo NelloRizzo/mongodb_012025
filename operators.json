@@ -1,0 +1,116 @@
+[
+    // {
+    //   $addFields:
+    //     /**
+    //      * newField: The new field name.
+    //      * expression: The new field expression.
+    //      */
+    //     {
+    //       FullName: {
+    //         $concat: ["$FirstName", " ", "$LastName"]
+    //       },
+    //       Name: {
+    //         $concat: [
+    //           {
+    //             $substr: ["$FirstName", 0, 1]
+    //           },
+    //           ". ",
+    //           {
+    //             $toUpper: "$LastName"
+    //           }
+    //         ]
+    //       }
+    //     }
+    // }
+    // {
+    //   $addFields:
+    //     /**
+    //      * newField: The new field name.
+    //      * expression: The new field expression.
+    //      */
+    //     {
+    //       FullNameArray: {
+    //         $split: ["$FullName", " "]
+    //       },
+    //       AddSample: {
+    //         $add: ["$Amount", "$Amount"]
+    //       },
+    //       SubSample: {
+    //         $subtract: [
+    //           "$Amount",
+    //           {
+    //             $trunc: "$Amount"
+    //           }
+    //         ]
+    //       },
+    //       MulSample: {
+    //         $multiply: ["$Amount", "$Children"]
+    //       },
+    //       DivSample: {
+    //         $cond: {
+    //           if: {
+    //             $ne: ["$Children", 0]
+    //           },
+    //           then: {
+    //             $divide: ["$Amount", "$Children"]
+    //           },
+    //           else: "N/A"
+    //         }
+    //       }
+    //     }
+    // }
+    {
+      $addFields:
+        /**
+         * newField: The new field name.
+         * expression: The new field expression.
+         */
+        {
+          DateAsString1: {
+            $dateToString: {
+              format: "%d/%m/%Y",
+              date: "$Birthday"
+            }
+          },
+          DateAsString2: {
+            $dateToString: {
+              format: "%d/%B/%Y",
+              date: "$Birthday"
+            }
+          },
+          DayOfYear: {
+            $dateToString: {
+              format: "%j",
+              date: "$Birthday"
+            }
+          },
+          DayOfWeek: {
+            $dateToString: {
+              format: "%w",
+              date: "$Birthday"
+            }
+          },
+          YearOfBirth: {
+            $year: "$Birthday"
+          },
+          MonthOfBirth: {
+            $month: "$Birthday"
+          },
+          DayOfBirth: {
+            $dayOfMonth: "$Birthday"
+          },
+          Hours: {
+            $hour: "$CreatedAt"
+          },
+          Minutes: {
+            $minute: "$CreatedAt"
+          },
+          Seconds: {
+            $second: "$CreatedAt"
+          },
+          Milliseconds: {
+            $millisecond: "$CreatedAt"
+          }
+        }
+    }
+  ]
