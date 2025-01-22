@@ -1,0 +1,133 @@
+[
+    {
+      $project:
+        /**
+         * specifications: The fields to
+         *   include or exclude.
+         */
+        {
+          _id: 1,
+          city_id: "$Codice Comune",
+          surface_kmq: {
+            $toDecimal: {
+              $trim: {
+                input: {
+                  $replaceAll: {
+                    input: {
+                      $replaceAll: {
+                        input:
+                          "$Superficie totale (Km2)",
+                        find: ".",
+                        replacement: ""
+                      }
+                    },
+                    find: ",",
+                    replacement: "."
+                  }
+                }
+              }
+            }
+          },
+          people: {
+            $toInt: {
+              $trim: {
+                input: {
+                  $replaceAll: {
+                    input:
+                      "$Popolazione residente al Censimento 2011",
+                    find: ".",
+                    replacement: ""
+                  }
+                }
+              }
+            }
+          },
+          people_kmq: {
+            $toDecimal: {
+              $trim: {
+                input: {
+                  $replaceAll: {
+                    input: {
+                      $replaceAll: {
+                        input:
+                          "$Densità abitativa (abitanti per Km2)",
+                        find: ".",
+                        replacement: ""
+                      }
+                    },
+                    find: ",",
+                    replacement: "."
+                  }
+                }
+              }
+            }
+          }
+        }
+    },
+    {
+      $lookup:
+        /**
+         * from: The target collection.
+         * localField: The local join field.
+         * foreignField: The target join field.
+         * as: The name for the results.
+         * pipeline: Optional pipeline to run on the foreign collection.
+         * let: Optional variables to use in the pipeline field stages.
+         */
+        {
+          from: "cities",
+          // nome della collection target
+          localField: "city_id",
+          // campo da usare come discriminante nella tabella locale
+          foreignField: "cod_comune",
+          // campo nella tabella target
+          as: "city" // nome del campo che conterrà il risultato del lookup
+        }
+    },
+    {
+      $unwind:
+        /**
+         * path: Path to the array field.
+         * includeArrayIndex: Optional name for index.
+         * preserveNullAndEmptyArrays: Optional
+         *   toggle to unwind null and empty values.
+         */
+        {
+          path: "$city"
+        }
+    },
+    {
+      $project:
+        /**
+         * specifications: The fields to
+         *   include or exclude.
+         */
+        {
+          _id: 1,
+          city_id: 1,
+          people: 1,
+          surface_kmq: 1,
+          people_kmq: 1,
+          name: "$city.denominazione",
+          acronym: "$city.sigla",
+          region: "$city.regione",
+          area: "$city.area"
+        }
+    },
+    {
+      $group:
+        /**
+         * _id: The id of the group.
+         * fieldN: The first field name.
+         */
+        {
+          _id: "$region",
+          surface_kmw: {
+            $sum: "$surface_kmq"
+          },
+          people: {
+            $sum: "$people"
+          }
+        }
+    }
+  ]
