@@ -1,0 +1,1300 @@
+[{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c0c"
+  },
+  "createdAt": {
+    "$date": "2025-01-23T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 29.1,
+  "humidity": 51
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c0d"
+  },
+  "createdAt": {
+    "$date": "2025-01-23T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 12.8,
+  "humidity": 85
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c0e"
+  },
+  "createdAt": {
+    "$date": "2025-01-27T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 17.1,
+  "humidity": 79
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c0f"
+  },
+  "createdAt": {
+    "$date": "2025-01-31T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 32,
+  "humidity": 62
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c10"
+  },
+  "createdAt": {
+    "$date": "2025-02-03T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 12,
+  "humidity": 83
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c11"
+  },
+  "createdAt": {
+    "$date": "2025-02-03T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.8,
+  "humidity": 56
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c12"
+  },
+  "createdAt": {
+    "$date": "2025-02-07T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 26.9,
+  "humidity": 57
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c13"
+  },
+  "createdAt": {
+    "$date": "2025-02-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33,
+  "humidity": 85
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c14"
+  },
+  "createdAt": {
+    "$date": "2025-02-11T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.5,
+  "humidity": 89
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c15"
+  },
+  "createdAt": {
+    "$date": "2025-02-14T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 14.8,
+  "humidity": 40
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c16"
+  },
+  "createdAt": {
+    "$date": "2025-02-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16.8,
+  "humidity": 55
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c17"
+  },
+  "createdAt": {
+    "$date": "2025-02-18T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 30.6,
+  "humidity": 71
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c18"
+  },
+  "createdAt": {
+    "$date": "2025-02-18T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 29.6,
+  "humidity": 49
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c19"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 17.8,
+  "humidity": 55
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1a"
+  },
+  "createdAt": {
+    "$date": "2025-02-23T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 24,
+  "humidity": 79
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1b"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.9,
+  "humidity": 43
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1c"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 15.3,
+  "humidity": 78
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1d"
+  },
+  "createdAt": {
+    "$date": "2025-02-26T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 25.7,
+  "humidity": 43
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1e"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 12.8,
+  "humidity": 61
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c1f"
+  },
+  "createdAt": {
+    "$date": "2025-03-03T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 25.9,
+  "humidity": 80
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c20"
+  },
+  "createdAt": {
+    "$date": "2025-03-04T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.9,
+  "humidity": 44
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c21"
+  },
+  "createdAt": {
+    "$date": "2025-03-08T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 12.5,
+  "humidity": 33
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c22"
+  },
+  "createdAt": {
+    "$date": "2025-03-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 12.6,
+  "humidity": 42
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c23"
+  },
+  "createdAt": {
+    "$date": "2025-03-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 24.7,
+  "humidity": 43
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c24"
+  },
+  "createdAt": {
+    "$date": "2025-03-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16,
+  "humidity": 81
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c25"
+  },
+  "createdAt": {
+    "$date": "2025-03-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.5,
+  "humidity": 85
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c26"
+  },
+  "createdAt": {
+    "$date": "2025-03-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 13.2,
+  "humidity": 76
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c27"
+  },
+  "createdAt": {
+    "$date": "2025-03-19T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 14.8,
+  "humidity": 60
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c28"
+  },
+  "createdAt": {
+    "$date": "2025-03-22T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 22.5,
+  "humidity": 77
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c29"
+  },
+  "createdAt": {
+    "$date": "2025-03-25T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 23.6,
+  "humidity": 83
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2a"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.1,
+  "humidity": 57
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2b"
+  },
+  "createdAt": {
+    "$date": "2025-03-31T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.4,
+  "humidity": 78
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2c"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 25.3,
+  "humidity": 73
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2d"
+  },
+  "createdAt": {
+    "$date": "2025-04-06T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.1,
+  "humidity": 90
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2e"
+  },
+  "createdAt": {
+    "$date": "2025-04-08T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.1,
+  "humidity": 75
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c2f"
+  },
+  "createdAt": {
+    "$date": "2025-04-08T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16.3,
+  "humidity": 51
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c30"
+  },
+  "createdAt": {
+    "$date": "2025-04-08T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 28.4,
+  "humidity": 52
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c31"
+  },
+  "createdAt": {
+    "$date": "2025-04-08T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 14.5,
+  "humidity": 86
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c32"
+  },
+  "createdAt": {
+    "$date": "2025-04-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16.5,
+  "humidity": 82
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c33"
+  },
+  "createdAt": {
+    "$date": "2025-04-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 27.2,
+  "humidity": 43
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c34"
+  },
+  "createdAt": {
+    "$date": "2025-04-14T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 32.3,
+  "humidity": 75
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c35"
+  },
+  "createdAt": {
+    "$date": "2025-04-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 34.1,
+  "humidity": 34
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c36"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.9,
+  "humidity": 53
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c37"
+  },
+  "createdAt": {
+    "$date": "2025-04-22T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 15.4,
+  "humidity": 69
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c38"
+  },
+  "createdAt": {
+    "$date": "2025-04-26T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 22.8,
+  "humidity": 61
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c39"
+  },
+  "createdAt": {
+    "$date": "2025-04-27T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 19.3,
+  "humidity": 59
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3a"
+  },
+  "createdAt": {
+    "$date": "2025-04-28T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 24.8,
+  "humidity": 84
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3b"
+  },
+  "createdAt": {
+    "$date": "2025-04-28T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 17.4,
+  "humidity": 39
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3c"
+  },
+  "createdAt": {
+    "$date": "2025-04-30T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.8,
+  "humidity": 46
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3d"
+  },
+  "createdAt": {
+    "$date": "2025-05-01T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 18.6,
+  "humidity": 58
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3e"
+  },
+  "createdAt": {
+    "$date": "2025-05-04T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 30.2,
+  "humidity": 36
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c3f"
+  },
+  "createdAt": {
+    "$date": "2025-05-04T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 25,
+  "humidity": 79
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c40"
+  },
+  "createdAt": {
+    "$date": "2025-05-06T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.5,
+  "humidity": 34
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c41"
+  },
+  "createdAt": {
+    "$date": "2025-05-06T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 17.7,
+  "humidity": 74
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c42"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 33.6,
+  "humidity": 39
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c43"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 11.2,
+  "humidity": 54
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c44"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 21.3,
+  "humidity": 72
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c45"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 19.3,
+  "humidity": 67
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c46"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.3,
+  "humidity": 55
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c47"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 27.6,
+  "humidity": 45
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c48"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 24.8,
+  "humidity": 33
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c49"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 20.5,
+  "humidity": 90
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4a"
+  },
+  "createdAt": {
+    "$date": "2025-05-18T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 32.4,
+  "humidity": 86
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4b"
+  },
+  "createdAt": {
+    "$date": "2025-05-22T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16.8,
+  "humidity": 33
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4c"
+  },
+  "createdAt": {
+    "$date": "2025-05-24T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 13.8,
+  "humidity": 34
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4d"
+  },
+  "createdAt": {
+    "$date": "2025-05-28T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 19.9,
+  "humidity": 36
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4e"
+  },
+  "createdAt": {
+    "$date": "2025-06-01T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 23.9,
+  "humidity": 57
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c4f"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 26.5,
+  "humidity": 68
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c50"
+  },
+  "createdAt": {
+    "$date": "2025-06-05T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 13.6,
+  "humidity": 84
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c51"
+  },
+  "createdAt": {
+    "$date": "2025-06-05T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 18.1,
+  "humidity": 74
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c52"
+  },
+  "createdAt": {
+    "$date": "2025-06-05T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 25.2,
+  "humidity": 44
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c53"
+  },
+  "createdAt": {
+    "$date": "2025-06-06T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 30.3,
+  "humidity": 81
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c54"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 21.6,
+  "humidity": 68
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c55"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.2,
+  "humidity": 49
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c56"
+  },
+  "createdAt": {
+    "$date": "2025-06-14T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 32.1,
+  "humidity": 33
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c57"
+  },
+  "createdAt": {
+    "$date": "2025-06-17T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 11.8,
+  "humidity": 40
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c58"
+  },
+  "createdAt": {
+    "$date": "2025-06-20T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 10.4,
+  "humidity": 90
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c59"
+  },
+  "createdAt": {
+    "$date": "2025-06-22T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 11,
+  "humidity": 75
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5a"
+  },
+  "createdAt": {
+    "$date": "2025-06-24T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 15.4,
+  "humidity": 64
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5b"
+  },
+  "createdAt": {
+    "$date": "2025-06-27T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 34.2,
+  "humidity": 42
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5c"
+  },
+  "createdAt": {
+    "$date": "2025-07-01T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 18.7,
+  "humidity": 41
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5d"
+  },
+  "createdAt": {
+    "$date": "2025-07-01T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 19,
+  "humidity": 43
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5e"
+  },
+  "createdAt": {
+    "$date": "2025-07-04T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 27.7,
+  "humidity": 61
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c5f"
+  },
+  "createdAt": {
+    "$date": "2025-07-05T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 26.1,
+  "humidity": 35
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c60"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 16.2,
+  "humidity": 55
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c61"
+  },
+  "createdAt": {
+    "$date": "2025-07-10T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 13.1,
+  "humidity": 68
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c62"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 21.5,
+  "humidity": 65
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c63"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 26.3,
+  "humidity": 81
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c64"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 27.9,
+  "humidity": 65
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c65"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 30.5,
+  "humidity": 48
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c66"
+  },
+  "createdAt": {
+    "$date": "2025-07-15T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 10.2,
+  "humidity": 70
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c67"
+  },
+  "createdAt": {
+    "$date": "2025-07-17T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 21.8,
+  "humidity": 38
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c68"
+  },
+  "createdAt": {
+    "$date": "2025-07-21T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.6,
+  "humidity": 35
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c69"
+  },
+  "createdAt": {
+    "$date": "2025-07-23T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 21.8,
+  "humidity": 56
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6a"
+  },
+  "createdAt": {
+    "$date": "2025-07-25T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 10.8,
+  "humidity": 76
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6b"
+  },
+  "createdAt": {
+    "$date": "2025-07-26T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 19.2,
+  "humidity": 54
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6c"
+  },
+  "createdAt": {
+    "$date": "2025-07-26T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 31.4,
+  "humidity": 73
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6d"
+  },
+  "createdAt": {
+    "$date": "2025-07-29T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 10.5,
+  "humidity": 82
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6e"
+  },
+  "createdAt": {
+    "$date": "2025-07-31T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 22,
+  "humidity": 34
+},
+{
+  "_id": {
+    "$oid": "67924b6eefcb629083f49c6f"
+  },
+  "createdAt": {
+    "$date": "2025-08-02T15:00:14.578Z"
+  },
+  "metaData": {
+    "sensorId": "sensor1"
+  },
+  "temperature": 11.2,
+  "humidity": 73
+}]
